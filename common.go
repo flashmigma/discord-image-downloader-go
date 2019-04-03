@@ -38,7 +38,7 @@ func deduplicateDownloadItems(DownloadItems []*DownloadItem) []*DownloadItem {
 func updateDiscordStatus() {
 	dg.UpdateStatusComplex(discordgo.UpdateStatusData{
 		Game: &discordgo.Game{
-			Name: fmt.Sprintf("%d downloaded pictures", countDownloadedImages()),
+			Name: fmt.Sprintf("%d UwU", ),
 			Type: discordgo.GameTypeWatching,
 		},
 		Status: "online",
